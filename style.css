@@ -1,0 +1,102 @@
+* {
+    margin:0;
+    padding:0;
+    /*removing default margin and padding to give you a clean starting point*/
+}
+
+body {
+    min-height:100vh;
+    /*ensuring that the content occupies the entire screen*/
+    background-image: url(background_image.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: white;
+    box-shadow: 3px 3px 5px rgba(0,0,0, 0.1);
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    height: 50px;
+}
+
+nav a {
+    height:100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+nav a:hover {
+    background-color: rgb(223, 215, 141);
+}
+
+nav li:first-child {
+    margin-right: auto;
+}
+
+.sidebar {
+    position: fixed;
+    width: 250px;
+    top:0;
+    right:0;
+    height: 100vh;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.495);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+    display:none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li {
+    width:100%;
+}
+
+.sidebar a {
+    width:100%;
+}
+
+.menu-button {
+        display: none;
+    }
+/*QUESTIONS*
+1. What is the difference between list-style and list-style-type?
+/* 2. Which properties should you assign to * selector? For example the font-family, why in the body and not in * ? Because * means all?
+3. How many properties can you use for backdrop-filter?
+4. What does top, right left mean?*/
+
+@media (max-width:400px){
+   
+    .sidebar {
+        width: 100%;
+    }
+
+    
+}
+@media(max-width:800px){
+    .hideOnMobile {
+        display: none;
+    }
+
+    .menu-button {
+        display: block;
+    }
+    
+}
+

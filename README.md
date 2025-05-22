@@ -2,8 +2,8 @@
 Exercise of creating a responsive navigation bar
 
 ## List of projects I made
-1. <a href="https://codepen.io/Wassenaar/pen/QwwXdVj">First project</a>
-2. <a href="https://codepen.io/Wassenaar/pen/JoogGVz">Edelsteen vrouwtje (Gemstone lady)</a>
+1. <a href="https://codepen.io/Wassenaar/full/QwwXdVj">First project</a>
+2. <a href="https://codepen.io/Wassenaar/full/JoogGVz">Edelsteen vrouwtje (Gemstone lady)</a>
 
 ## Monday | 19-5-2025 | 10:25
 Today is a great day because it's my birthday! I'm now 26 years old!<br>
